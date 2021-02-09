@@ -1,0 +1,10 @@
+START 400
+x dd 4
+MOV A, m
+m dw 3
+y dd 8
+MOV A, x
+STA 2000   
+MOV A, m
+MOV A, y
+END
